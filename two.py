@@ -1,0 +1,41 @@
+'''a = input('请输入您所需计算的东西：')
+b = len(a)'''
+#print('您的计算长度为：',len(a))
+x = (123456,'asdfghjk','阿斯顿',(456789,'qwerty','去微软',(14758,'zxxcvb  ')),9999,999)
+print(x)
+print(type(x))
+print(x.count(9))
+print(x[3].index(456789))
+y = [123456,'asdfgh','阿斯蒂芬',[78946,'qwerty',"自行车"],(147258,'zxcvbn')]
+y.append(233)
+print(y)
+print(y[-2].count(147258))
+print(y[3].index("自行车"))
+y[3].insert(2,'asd')
+print(y)
+y[3].pop(0)
+print(y)
+print(type(y))
+z = {'id':1,'name':'tunan','age':18,'shenggao':170,'tizhong':'60kg'}
+print(z['age'])
+print(z.get('age'))
+z["name"] = "jjj"
+print(z)
+print(x[3][3].index(14758))
+c = x.count(999)
+print(c)
+d = [369789,258963]
+y.append(d)
+print(y)
+x = y.copy()
+print(x)
+print(y.count(123456))
+print(y[6].index(369789))
+y.insert(1,"laogou")
+print(y)
+y.pop(1)
+print(y)
+z["xueli"] = "benke"
+print(z)
+del z['xueli']
+print(z)
